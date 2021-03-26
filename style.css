@@ -67,6 +67,14 @@ a {
   color: rgba(0, 0, 0, 0.6);
   margin-left: 5px;
 }
+.text-dark-gray-code {
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 5px;
+  
+}
+.text-dark-gray-code:hover{
+  border: 2px solid black;
+}
 
 .label {
   display: inline-block;
