@@ -10,7 +10,7 @@
       <script type="text/javascript" src="processing.js"></script>
     -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>p5.js/processing </title>
+  <title>Thesis </title>
   <link rel="stylesheet" href="Mystyle.css" />
   <link rel="shortcut icon" href="../assets/logo.gif" />
 
@@ -33,7 +33,8 @@
         <h2><a href="http://sina.sharif.edu/~niaki/" target="_blank" style="color: blue;"> </br> My supervisor</a></h2>
         </br>
         <h2> and</h2>
-        <h2><a href="../assets/Thesis ARTCLE.pdf" target="_blank" style="color: blue;"> </br> Its Article (previous version) </a></h2>
+        <h2><a href="../assets/Thesis ARTCLE.pdf" target="_blank" style="color: blue;"> </br> previous version of its
+            article (thesis) </a></h2>
         <div class="items">
 
         </div>
@@ -111,13 +112,90 @@
         <img src="../article/Main.jpg" width="680">
         </br>
 
+
+        <h4></h4>
+
+
+        <div class="item">
+          <div class="image">
+            <img src="../assets/mat.png" alt="job" width="60" />
+          </div>
+          <div class="content">
+            <div class="row">
+              <h3 class="title text-lg">
+                - (s, S) the simulation of inventory model is developed in MATLAB!
+              </h3>
+              <div class="date text-gray">This functions is based on the (s, S) inventory model
+                Biles et al. (2007) (Biles,W. E.,Kleijnen, J. P., van Beers,W.,VanNieuwenhuyse, I. (2007,December)
+                Kriging metamodeling in constrained simulation optimization: An explorative study. Paper presented at
+                the Proceedings of
+                the 39th conference onWinter simulation, Piscataway, NJ, USA.)</div>
+            </div>
+            <div class="downloadlink"> <a href="../assets/invmodel.m" download >Download the code!</a></div>
+    
+            <div class="extra">
+              <span class="label">Input: (the size of "small s", the size of "Big S")</span>
+              <span class="label">Output: totalcost of the simulation</span>
+
+            </div>
+            <p style="margin-left: 10px;">
+              The parameters of this (s, S) inventory control model are as follows: (You can change for your problem)
+              </br> - The holding cost is charged $1 per day per item
+              </br> - The shortage cost is charged $5 per day per item
+              </br> - The simulation period is 4,000 days per replicate
+              </br> - The ordering cost is $32 plus $3 per unit ordered
+              </br> - The order arrival time follows an exponential distribution with a mean of 6 days
+              </br> - The inventory position is reviewed at the end of each day
+              </br> - The customer demand is exponentially distributed with the mean of 90
+              </br> - The number of units demanded per customer is 1.
+            </p>
+
+            </br>
+            <div class="date text-gray">Input and Output Example (Article Results):
+              </br>
+              </br>
+              - input(s,S):[s=741, S=845] --> output(totalcost)=604.58
+              </br>
+              - in code: [Totalcost]=invmodel([741, 845])
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="item">
+          <div class="image">
+            <img src="../assets/blue-error.png" alt="danger" width="60" />
+          </div>
+
+          <div class="content">
+            <div class="row">
+              <h3 class="title text-lg">
+                This simulation model is not a semi-expensive model
+              </br>
+              - In fact the effeciency of the proposed algorithm is shown based on </br>
+              "The nubmer of Simulation Evaluations"
+              </h3>
+              
+            </div>
+            
+            
+
+
+          </div>
+        </div>
+
+
+
+
         <h4>- download previous version of its article</h4>
         <a href="../assets/Thesis ARTCLE.pdf" download>download</a>
 
-      </br>
+        </br>
 
-      <h4>- download the main file (Thesis)</h4>
-      <a href="../assets/Thesis.pdf" download>download</a>
+        <h4>- download the main file (Thesis)</h4>
+        <a href="../assets/Thesis.pdf" download>download</a>
 
       </section>
 

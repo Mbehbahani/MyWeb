@@ -163,7 +163,7 @@ a {
 .social-links .links a i {
   font-size: 20px;
   background-color: #fff;
-  padding: 5px;
+  padding: 4px;
   border-radius: 50%;
 }
 
@@ -172,6 +172,11 @@ a {
 }
 
 .github {
+  color: #1b1c1d;
+}
+.cap {
+  font-size: 17px !important;
+  padding: 5px 2px !important;
   color: #1b1c1d;
 }
 
